@@ -4,7 +4,7 @@
 	"repository": "",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'uTorrent Stream')",
+			"description": "Optionally set the title of this instance (defaults to 'Cloud Saver')",
 			"required": false
 		},
 		"AUTH": {
