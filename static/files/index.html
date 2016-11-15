@@ -1,56 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-</style>
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=892996750807543";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-</head>
-<body>
-<ul>
-<li><a href="">Cloud Saver</a></li>
-<li style="float:right"><a href="">Contact</a></li>
-</ul>
-</body>
-</html>
 <html ng-app="app" >
 	<head>
 		<title ng-bind="state.Stats.Title">Cloud Saver</title>
@@ -118,7 +66,7 @@ li a:hover:not(.active) {
 		<footer>
 			<span><a href="" target="_blank"></a>  <a href="" target="_blank"></a></span>
 			<span><a>Online:</a></span>
-			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users online.</span>
+			<span ng-if="numKeys(state.Users) > 1">{{ numKeys(state.Users) }} users online</span>
 		</footer>
 		<script src="js/vendor/query-string.js"></script>
 		<script src="js/vendor/angular.min.js"></script>
