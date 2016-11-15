@@ -1,10 +1,10 @@
 {
-	"name": "uTorrent Stream",
-	"website": "https://utorrentstream.com",
-	"repository": "https://utorrentstream.com",
+	"name": "Cloud Saver",
+	"website": "https://github.com/cinetube/",
+	"repository": "https://github.com/cinetube/utorrent-stream/",
 	"env": {
 		"TITLE": {
-			"description": "Optionally set the title of this instance (defaults to 'uTorrent Stream')",
+			"description": "Optionally set the title of this instance (defaults to 'Cloud Saver')",
 			"required": false
 		},
 		"AUTH": {
