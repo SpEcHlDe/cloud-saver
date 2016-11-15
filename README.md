@@ -1,11 +1,7 @@
-<img src="https://github.com/factoogle/utorrent-stream/blob/master/static/snapshot.PNG?raw=true" alt="screenshot"/>
-
-**uTorrent Stream** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
 
 
+**Cloud Saver** is a a self-hosted remote torrent client, written in Go (golang). You start torrents remotely, which are downloaded as sets of files on the local disk of the server, which are then retrievable or streamable via HTTP.
 
-**Visit utorrentstream.com to learn installing App**
-<a href="https://utorrentstream.com">Website: uTorrentStream.com</a>
 **Herkoku**
 
 Click this button to...
@@ -35,11 +31,8 @@ $ cloud-torrent --help
   Version:
     0.8.8
 
-Credits to `anacrolix` for https://github.com/anacrolix/torrent
-
 #### MIT License
 
-Copyright © 2016 Jaime Pillora &lt;dev@jpillora.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
