@@ -1,11 +1,11 @@
 FROM alpine:3.4
-MAINTAINER dev@jpillora.com
+MAINTAINER cinetube@rocketmail.com
 # prepare go env
 ENV GOPATH /go
-ENV NAME cloud-torrent
-ENV PACKAGE github.com/jpillora/$NAME
+ENV NAME cloud-saver
+ENV PACKAGE github.com/cinetube/$NAME
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
-ENV GOLANG_VERSION 1.7.1
+ENV GOLANG_VERSION 1.7.4
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
 ENV GOLANG_SRC_SHA256 2b843f133b81b7995f26d0cb64bbdbb9d0704b90c44df45f844d28881ad442d3
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
@@ -40,4 +40,4 @@ RUN set -ex \
 	&& apk del .build-deps \
 	&& rm -rf /no-pic.patch $GOPATH /usr/local/go
 #run!
-ENTRYPOINT ["cloud-torrent"]
+ENTRYPOINT ["cloud-saver"]
